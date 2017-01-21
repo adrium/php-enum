@@ -231,6 +231,17 @@ class EnumTest extends \PHPUnit_Framework_TestCase
     /**
      * equals()
      */
+    public function testSameInstance()
+    {
+        $foo1 = EnumFixture::FOO();
+        $foo2 = EnumFixture::FOO();
+
+        $this->assertSame($foo1, $foo2);
+    }
+
+    /**
+     * equals()
+     */
     public function testEqualsComparesProblematicValuesProperly()
     {
         $false = new EnumFixture(EnumFixture::PROBLEMATIC_BOOLEAN_FALSE);
