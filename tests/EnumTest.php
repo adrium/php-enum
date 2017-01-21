@@ -1,6 +1,6 @@
 <?php
 /**
- * @link    http://github.com/myclabs/php-enum
+ * @link    http://github.com/adrium/php-enum
  * @license http://www.opensource.org/licenses/mit-license.php MIT (see the LICENSE file)
  */
 
@@ -194,7 +194,7 @@ class EnumTest extends \PHPUnit_Framework_TestCase
 
     /**
      * search()
-     * @see https://github.com/myclabs/php-enum/issues/13
+     * @see https://github.com/adrium/php-enum/issues/13
      * @dataProvider searchProvider
      */
     public function testSearch($value, $expected)

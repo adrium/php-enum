@@ -1,6 +1,6 @@
 <?php
 /**
- * @link    http://github.com/myclabs/php-enum
+ * @link    http://github.com/adrium/php-enum
  * @license http://www.opensource.org/licenses/mit-license.php MIT (see the LICENSE file)
  */
 
@@ -83,7 +83,7 @@ abstract class Enum
     /**
      * Compares one Enum with another.
      *
-     * This method is final, for more information read https://github.com/myclabs/php-enum/issues/4
+     * This method is final, for more information read https://github.com/adrium/php-enum/issues/4
      *
      * @return bool True if Enums are equal, false if not equal
      */
