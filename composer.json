@@ -1,14 +1,14 @@
 {
-    "name": "myclabs/php-enum",
+    "name": "adrium/php-enum",
     "type": "library",
     "description": "PHP Enum implementation",
     "keywords": ["enum"],
-    "homepage": "http://github.com/myclabs/php-enum",
+    "homepage": "http://github.com/adrium/php-enum",
     "license": "MIT",
     "authors": [
         {
             "name": "PHP Enum contributors",
-            "homepage": "https://github.com/myclabs/php-enum/graphs/contributors"
+            "homepage": "https://github.com/adrium/php-enum/graphs/contributors"
         }
     ],
     "autoload": {

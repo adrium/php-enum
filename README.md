@@ -1,9 +1,5 @@
 # PHP Enum implementation inspired from SplEnum
 
-[![Build Status](https://travis-ci.org/myclabs/php-enum.png?branch=master)](https://travis-ci.org/myclabs/php-enum)
-[![Latest Stable Version](https://poser.pugx.org/myclabs/php-enum/version.png)](https://packagist.org/packages/myclabs/php-enum)
-[![Total Downloads](https://poser.pugx.org/myclabs/php-enum/downloads.png)](https://packagist.org/packages/myclabs/php-enum)
-
 ## Why?
 
 First, and mainly, `SplEnum` is not integrated to PHP, you have to install it separately.
@@ -16,12 +12,6 @@ Using an enum instead of class constants provides the following advantages:
 - You can get a list of all the possible values (see below)
 
 This Enum class is not intended to replace class constants, but only to be used when it makes sense.
-
-## Installation
-
-```
-composer require myclabs/php-enum
-```
 
 ## Declaration
 
